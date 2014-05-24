@@ -88,10 +88,12 @@ Each row is denoted by a numeric subject id of 1-30 and 6 activities:
 
 With each subject performing each activity we get the final result of 30 subjects accross 6 activities = 180 observations.
 The feature variables,columns 3:88, are all the variables from the original data set measuring average values and standard deviations, are listed
-as mean values of the original values calculated by subject and activity. 
+as mean values of the original values calculated by subject and activity. The 86 specific features extracted from the orignal data set are 
+displayed below.
 
 
-|:-------------------------------------:|:-----------------------------------:|------------------------------------:|----------------------------:| 
+| | | | |
+|:--------------------------------------|:------------------------------------|:------------------------------------|:----------------------------| 
 |  "tBodyAcc.mean.X"                    |"tBodyAcc.mean.Y"                    |"tBodyAcc.mean.Z"                    |"tBodyAcc.std.X"             |                    
 |  "tBodyAcc.std.Y"                     |"tBodyAcc.std.Z"                     |"tGravityAcc.mean.X"                 |"tGravityAcc.mean.Y"         |      
 |  "tGravityAcc.mean.Z"                 |"tGravityAcc.std.X"                  |"tGravityAcc.std.Y"                  |"tGravityAcc.std.Z"          |       
@@ -113,8 +115,8 @@ as mean values of the original values calculated by subject and activity.
 |  "fBodyBodyAccJerkMag.meanFreq"       |"fBodyBodyGyroMag.mean"              |"fBodyBodyGyroMag.std"               |"fBodyBodyGyroMag.meanFreq"  |       
 |  "fBodyBodyGyroJerkMag.mean"          |"fBodyBodyGyroJerkMag.std"           |"fBodyBodyGyroJerkMag.meanFreq"      |"angletBodyAccMean.gravity"  |       
 |  "angletBodyAccJerkMean.gravityMean"  |"angletBodyGyroMean.gravityMean"     |"angletBodyGyroJerkMean.gravityMean" |"angleX.gravityMean"         |       
-|  "angleY.gravityMean"                 |"angleZ.gravityMean"                 |-------------------------------------|-----------------------------|
+|  "angleY.gravityMean"                 |"angleZ.gravityMean"                 |                                     |                             |
 
 
 
-Note that special characters"ie. \(\)",underscores and commas have been removed to make the names more R friendly and in accordance with tidy data principles.
+Note that special characters, ie. \(\),underscores and commas have been removed to make the names more R friendly and in accordance with tidy data principles.
