@@ -88,4 +88,33 @@ Each row is denoted by a numeric subject id of 1-30 and 6 activities:
 
 With each subject performing each activity we get the final result of 30 subjects accross 6 activities = 180 observations.
 The feature variables,columns 3:88, are all the variables from the original data set measuring average values and standard deviations, are listed
-as mean values of the original values calculated by subject and activity.
+as mean values of the original values calculated by subject and activity. 
+
+
+|:-------------------------------------:|:-----------------------------------:|------------------------------------:|----------------------------:| 
+|  "tBodyAcc.mean.X"                    |"tBodyAcc.mean.Y"                    |"tBodyAcc.mean.Z"                    |"tBodyAcc.std.X"             |                    
+|  "tBodyAcc.std.Y"                     |"tBodyAcc.std.Z"                     |"tGravityAcc.mean.X"                 |"tGravityAcc.mean.Y"         |      
+|  "tGravityAcc.mean.Z"                 |"tGravityAcc.std.X"                  |"tGravityAcc.std.Y"                  |"tGravityAcc.std.Z"          |       
+|  "tBodyAccJerk.mean.X"                |"tBodyAccJerk.mean.Y"                |"tBodyAccJerk.mean.Z"                |"tBodyAccJerk.std.X"         |       
+|  "tBodyAccJerk.std.Y"                 |"tBodyAccJerk.std.Z"                 |"tBodyGyro.mean.X"                   |"tBodyGyro.mean.Y"           |       
+|  "tBodyGyro.mean.Z"                   |"tBodyGyro.std.X"                    |"tBodyGyro.std.Y"                    |"tBodyGyro.std.Z"            |       
+|  "tBodyGyroJerk.mean.X"               |"tBodyGyroJerk.mean.Y"               |"tBodyGyroJerk.mean.Z"               |"tBodyGyroJerk.std.X"        |       
+|  "tBodyGyroJerk.std.Y"                |"tBodyGyroJerk.std.Z"                |"tBodyAccMag.mean"                   |"tBodyAccMag.std"            |       
+|  "tGravityAccMag.mean"                |"tGravityAccMag.std"                 |"tBodyAccJerkMag.mean"               |"tBodyAccJerkMag.std"        |       
+|  "tBodyGyroMag.mean"                  |"tBodyGyroMag.std"                   |"tBodyGyroJerkMag.mean"              |"tBodyGyroJerkMag.std"       |       
+|  "fBodyAcc.mean.X"                    |"fBodyAcc.mean.Y"                    |"fBodyAcc.mean.Z"                    |"fBodyAcc.std.X"             |       
+|  "fBodyAcc.std.Y"                     |"fBodyAcc.std.Z"                     |"fBodyAcc.meanFreq.X"                |"fBodyAcc.meanFreq.Y"        |       
+|  "fBodyAcc.meanFreq.Z"                |"fBodyAccJerk.mean.X"                |"fBodyAccJerk.mean.Y"                |"fBodyAccJerk.mean.Z"        |       
+|  "fBodyAccJerk.std.X"                 |"fBodyAccJerk.std.Y"                 |"fBodyAccJerk.std.Z"                 |"fBodyAccJerk.meanFreq.X"    |       
+|  "fBodyAccJerk.meanFreq.Y"            |"fBodyAccJerk.meanFreq.Z"            |"fBodyGyro.mean.X"                   |"fBodyGyro.mean.Y"           |       
+|  "fBodyGyro.mean.Z"                   |"fBodyGyro.std.X"                    |"fBodyGyro.std.Y"                    |"fBodyGyro.std.Z"            |       
+|  "fBodyGyro.meanFreq.X"               |"fBodyGyro.meanFreq.Y"               |"fBodyGyro.meanFreq.Z"               |"fBodyAccMag.mean"           |       
+|  "fBodyAccMag.std"                    |"fBodyAccMag.meanFreq"               |"fBodyBodyAccJerkMag.mean"           |"fBodyBodyAccJerkMag.std"    |       
+|  "fBodyBodyAccJerkMag.meanFreq"       |"fBodyBodyGyroMag.mean"              |"fBodyBodyGyroMag.std"               |"fBodyBodyGyroMag.meanFreq"  |       
+|  "fBodyBodyGyroJerkMag.mean"          |"fBodyBodyGyroJerkMag.std"           |"fBodyBodyGyroJerkMag.meanFreq"      |"angletBodyAccMean.gravity"  |       
+|  "angletBodyAccJerkMean.gravityMean"  |"angletBodyGyroMean.gravityMean"     |"angletBodyGyroJerkMean.gravityMean" |"angleX.gravityMean"         |       
+|  "angleY.gravityMean"                 |"angleZ.gravityMean"                 |-------------------------------------|-----------------------------|
+
+
+
+Note that special characters"ie. \(\)",underscores and commas have been removed to make the names more R friendly and in accordance with tidy data principles.
