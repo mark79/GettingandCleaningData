@@ -31,9 +31,11 @@ This script does 5 things:
   replaced by the appropriate descriptive activity label. Lines 42-46.
 
 5.    Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
-  *  The data is reshaped to include mean averages of all feature by subject and activity
+  *  The data is reshaped to include mean averages of all features by subject and activity
   Each row will now consist of mean averages for all features for each subject during each activity
   An important not is that all STD measures are mean STD's this is not reflected in the variable name
   in order to prevent names of unweildly length. Lines 53-55.<br><br>
   *  Finally, the transformed dataset is written to the disk in the current working directory as
   tidydataset.txt and ready for upload.
+  
+_Note: All of the inertial signals files were unprocessed as their values were not required for the final data set._
